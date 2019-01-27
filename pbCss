@@ -1,0 +1,64 @@
+body
+{
+
+}
+
+h1
+{
+	margin-top:5.5%;
+	font-family: "Comic sans MS";
+	font-style: oblique;
+	font-size:4vw;
+	font-stretch: expanded;
+
+}
+
+
+#titulo
+{
+	border: 1px solid #000000;
+    -moz-border-radius: 7x;
+    padding: 15px;
+    background: #40E0D0;
+}
+
+.button
+{
+
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	padding: 35px 27px;
+	background: -moz-linear-gradient(
+		top,
+		#bdbcbb 4%,
+		#edd48a 25%,
+		#a8a4a3);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#bdbcbb),
+		color-stop(0.25, #edd48a),
+		to(#a8a4a3));
+	-moz-border-radius: 21px;
+	-webkit-border-radius: 21px;
+	border-radius: 21px;
+	border: 1px solid #241a10;
+	-moz-box-shadow:
+		3px -3px 61px rgba(232,003,232,1),
+		inset 0px 0px 17px rgba(181,002,181,0.7);
+	-webkit-box-shadow:
+		3px -3px 61px rgba(232,003,232,1),
+		inset 0px 0px 17px rgba(181,002,181,0.7);
+	box-shadow:
+		3px -3px 61px rgba(232,003,232,1),
+		inset 0px 0px 17px rgba(181,002,181,0.7);
+	text-shadow:
+		4px -6px 4px rgba(000,000,000,1),
+		0px 0px 0px rgba(000,000,000,0.3);
+}
+#tabela td {
+	width:80px;
+	height:80px;
+	padding:10px;
+	border:7px solid #CCC;
+}
